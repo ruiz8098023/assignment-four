@@ -25,6 +25,7 @@ body{
 .top {
     padding: 10%;
     text-align: center;
+    background: linear-gradient(rgb(218, 217, 217), white);
 }
 
 .control {
@@ -35,6 +36,8 @@ body{
     animation: game 3s ease infinite;
 }
 
+
+/***super smash bros section***/
 .supersmash {
     background: url("../image/supersmashbros.jpg") center/cover fixed;
     min-height: 100vh;
@@ -64,6 +67,7 @@ body{
 }
 
 
+/***mario kart section***/
 .mariokart {
     background: url("../image/mariokart.jpg") center/cover fixed;
     min-height: 100vh;
@@ -71,12 +75,25 @@ body{
     padding: 10%;
 }
 
-.mariokart img {
-    width: 50%;
-    position: relative;
-    margin-left: 45%;
-    padding: 10px;
+.karttext {
+    position: absolute;
+    padding: 20px;
+    width: 30%;
 }
+
+.mariokart img {
+    width: 60%;
+    position: relative;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+.mariokart img:hover {
+    position: relative;
+    opacity: 0.7;
+}
+
+
 
 .horror {
     background: linear-gradient(rgb(29, 24, 24), black);
