@@ -28,7 +28,8 @@ h3 {
     font-family: 'Dela Gothic One', cursive;
 }
 
-p{
+p,
+li {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -91,7 +92,12 @@ p{
 .karttext {
     position: absolute;
     float: left;
-    width: 30%;
+    width: 27%;
+    margin: 20px;
+}
+
+.karttext p {
+    margin-bottom: 20px;
 }
 
 .mariokart img {
@@ -106,12 +112,20 @@ p{
     opacity: 0.7;
 }
 
+.kartbox {
+    background: white;
+    padding: 10%;
+    box-shadow: 4px 4px 4px 2px grey
+}
 
+.kartbox p {
+    margin-bottom: 20px;
+}
 
-.horror {
-    background: linear-gradient(rgb(29, 24, 24), black);
-    min-height: 100vh;
-    position: relative;
+.sparkle {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
 }
 
 
