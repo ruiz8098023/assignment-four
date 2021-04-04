@@ -22,12 +22,6 @@ body{
     overflow-x: hidden;
 }
 
-h1,
-h2,
-p {
-    color: white;
-}
-
 .supersmash {
     background: url("../image/supersmashbros.jpg") center/cover fixed;
     min-height: 100vh;
@@ -35,7 +29,27 @@ p {
 }
 
 .supersmash img{
-    width: 25%;
+    width: 30%;
+    position: relative;
+}
+
+.supersmash h1,
+h2 {
+    color: white;
+}
+
+.supersmash 
+h3, 
+p {
+    color: white;
+    z-index: 2;
+    width: 10%;
+    position: relative;
+    text-align: center;
+}
+
+.supersmash img,
+p {
     display: inline-block;
 }
 
