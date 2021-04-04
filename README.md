@@ -11,4 +11,4 @@
 I, Josselyn Ruiz, have read the point deduction list and understand that I will lose points for missing items. 
 
 ### Image
-![An image for your viewing pleasure](image/)
+![An image for your viewing pleasure](https://mymodernmet.com/wp/wp-content/uploads/2017/10/highland-cattle-calves-12.jpg "Hello!")
