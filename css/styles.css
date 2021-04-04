@@ -1,0 +1,52 @@
+/*******
+
+Universal Styling
+
+********/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
+
+.supersmash {
+    background: url("../image/supersmashbros.jpg") center/cover fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+.supersmash img{
+    width: 25%;
+    display: inline-block;
+}
+
+.mariokart {
+    background: url("../image/mariokart.jpg") center/cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.horror {
+    background: linear-gradient(rgb(29, 24, 24), black);
+    min-height: 100vh;
+    position: relative;
+}
