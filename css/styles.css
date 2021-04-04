@@ -22,45 +22,78 @@ body{
     overflow-x: hidden;
 }
 
-.supersmash {
-    background: url("../image/supersmashbros.jpg") center/cover fixed;
-    min-height: 100vh;
-    position: relative;
-}
-
-.supersmash img{
-    width: 30%;
-    position: relative;
-}
-
-.supersmash h1,
-h2 {
-    color: white;
-}
-
-.supersmash 
-h3, 
-p {
-    color: white;
-    z-index: 2;
-    width: 10%;
-    position: relative;
+.top {
+    padding: 10%;
     text-align: center;
 }
 
-.supersmash img,
-p {
-    display: inline-block;
+.control {
+    width: 300px;
+    margin: 50px;
+    background: transparent;
+    position: relative;
+    animation: game 3s ease infinite;
 }
 
+.supersmash {
+    background: url("../image/supersmashbros.jpg") center/cover fixed;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+
+.supersmash h2{
+    margin-bottom: 10%;
+}
+
+.main{
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+    position: relative;
+    background: transparent;
+    display: inline-block;
+    color: white;
+    text-align: left;
+}
+
+.main img {
+    width: 100%;
+}
+
+
 .mariokart {
-    background: url("../image/mariokart.jpg") center/cover;
+    background: url("../image/mariokart.jpg") center/cover fixed;
     min-height: 100vh;
     position: relative;
+    padding: 10%;
+}
+
+.mariokart img {
+    width: 50%;
+    position: relative;
+    margin-left: 45%;
+    padding: 10px;
 }
 
 .horror {
     background: linear-gradient(rgb(29, 24, 24), black);
     min-height: 100vh;
     position: relative;
+}
+
+@keyframes game {
+    0% {
+        transform: translateY(-10%);
+      }
+    
+      50% {
+        transform: translateY(10%);
+      }
+    
+      100% {
+        transform: translateY(-10%);
+      }
 }
